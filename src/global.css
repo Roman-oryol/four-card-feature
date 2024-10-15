@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url('../assets/fonts/Poppins-ExtraLight.woff2') format('woff2'),
+    url('../assets/fonts/Poppins-ExtraLight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../assets/fonts/Poppins-Regular.woff2') format('woff2'),
+    url('../assets/fonts/Poppins-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../assets/fonts/Poppins-SemiBold.woff2') format('woff2'),
+    url('../assets/fonts/Poppins-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --font-poppins: 'Poppins', 'Times New Roman', serif;
+
+  --color-red: #ea5454;
+  --color-cyan: #44d3d2;
+  --color-orange: #fcae4a;
+  --color-blue: #549ef2;
+  --color-dark-blue: #4d4f62;
+  --color-grayish-blue: #a3a5ae;
+  --color-light-gray: #fafafa;
+
+  font-size: 62.5%;
+}
+
+* :is(::after, ::before) {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+  border: none;
+  border-radius: 0;
+
+  background: none;
+  box-shadow: none;
+}
+
+body {
+  font-family: var(--font-poppins);
+  font-weight: 400;
+  color: var(--color-dark-blue);
+  background-color: var(--color-light-gray);
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol,
+ul {
+  list-style: none;
+}
