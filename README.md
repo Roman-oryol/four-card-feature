@@ -16,12 +16,12 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 ### Screenshot
 
-![]()
+![](./screenshot.jpg)
 
 ### Links
 
 - Solution URL: [https://github.com/Roman-oryol/four-card-feature](https://github.com/Roman-oryol/four-card-feature)
-- Live Site URL: [https://ro-social-links-profile.netlify.app/](https://ro-social-links-profile.netlify.app/)
+- Live Site URL: [https://ro-four-card-feature.netlify.app/](https://ro-four-card-feature.netlify.app/)
 
 ## My process
 
