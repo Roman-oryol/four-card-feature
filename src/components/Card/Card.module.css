@@ -62,7 +62,7 @@
   }
 
   &::after {
-    background-image: url('images/icon-supervisor.svg');
+    background-image: url('../images/icon-supervisor.svg');
   }
 }
 
@@ -72,7 +72,7 @@
   }
 
   &::after {
-    background-image: url('images/icon-team-builder.svg');
+    background-image: url('../images/icon-team-builder.svg');
   }
 }
 
@@ -82,7 +82,7 @@
   }
 
   &::after {
-    background-image: url('images/icon-karma.svg');
+    background-image: url('../images/icon-karma.svg');
   }
 }
 
@@ -92,6 +92,6 @@
   }
 
   &::after {
-    background-image: url('images/icon-calculator.svg');
+    background-image: url('../images/icon-calculator.svg');
   }
 }
