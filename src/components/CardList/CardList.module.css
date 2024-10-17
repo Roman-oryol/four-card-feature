@@ -1,0 +1,36 @@
+.cardList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(311px, 350px));
+  justify-content: center;
+  gap: 25px;
+
+  li {
+    display: grid;
+  }
+
+  @media (min-width: 1170px) {
+    align-items: center;
+    gap: 30px;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-areas: 
+      "col-1 col-2-top col-3"
+      "col-1 col-2-bottom col-3";
+
+    li:first-child {
+      grid-area: col-1;
+    }
+
+    li:nth-child(2) {
+      grid-area: col-2-top;
+    }
+
+    li:nth-child(3) {
+      grid-area: col-2-bottom;
+    }
+
+    li:last-child {
+      grid-area: col-3;
+      
+    }
+  }
+}

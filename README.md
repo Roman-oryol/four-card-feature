@@ -1,6 +1,6 @@
-# Frontend Mentor - Social links profile solution
+# Frontend Mentor - Four card feature section solution
 
-This is a solution to the [Social links profile challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ).
+This is a solution to the [Four card feature section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK).
 
 ## Table of contents
 
@@ -20,7 +20,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ### Links
 
-- Solution URL: [https://github.com/Roman-oryol/social-links-profile](https://github.com/Roman-oryol/social-links-profile)
+- Solution URL: [https://github.com/Roman-oryol/four-card-feature](https://github.com/Roman-oryol/four-card-feature)
 - Live Site URL: [https://ro-social-links-profile.netlify.app/](https://ro-social-links-profile.netlify.app/)
 
 ## My process
@@ -28,7 +28,6 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 ### Built with
 
 - [React](https://reactjs.org/) - JS library
-- [Styled Components](https://styled-components.com/) - For styles
 
 ### Continued development
 

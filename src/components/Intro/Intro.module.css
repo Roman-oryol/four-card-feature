@@ -1,0 +1,33 @@
+.intro {
+  max-width: 540px;
+  margin: 0 auto 76px;
+  text-align: center;
+
+  @media (min-width: 1170px) {
+    /* padding-left: 10px; */
+    margin-bottom: 64px;
+  }
+
+  h1,
+  h2 {
+    font-size: clamp(2.4rem, 2vw + 1rem, 3.6rem);
+    line-height: 1.5;
+    letter-spacing: clamp(0.17px, 0.2vw + 0.5px, 0.25px);
+  }
+
+  h1 {
+    font-weight: 200;
+  }
+
+  h2 {
+    margin-bottom: 13px;
+    font-weight: 600;
+  }
+
+  p {
+    font-size: 1.5rem;
+    line-height: 1.67;
+    letter-spacing: 0.1px;
+    opacity: 0.5;
+  }
+}
